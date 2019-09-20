@@ -38,7 +38,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lanterns">
+  <component name="RunManager" selected="Application.BoughtMeACat">
+    <configuration name="BoughtMeACat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoughtMeACat" />
+      <module name="Lab_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lanterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lanterns" />
       <module name="Lab_4" />
@@ -62,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoughtMeACat" />
         <item itemvalue="Application.Lanterns" />
         <item itemvalue="Application.Stewie" />
         <item itemvalue="Application.StarFigures" />
