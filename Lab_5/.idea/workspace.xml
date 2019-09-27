@@ -35,9 +35,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spikey">
+  <component name="RunManager" selected="Application.Assignment3">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment1" />
+      <module name="Lab_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment3" />
       <module name="Lab_5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,6 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Assignment3" />
         <item itemvalue="Application.Spikey" />
         <item itemvalue="Application.Assignment1" />
       </list>
