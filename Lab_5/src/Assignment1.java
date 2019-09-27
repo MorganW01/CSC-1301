@@ -5,6 +5,7 @@ public class Assignment1 {
         String space = "\n";
         //prints the heading
         header();
+        System.out.println(space);
         //prints up facing arrow with line underneath
         drawUpArrow();
         drawALine();
