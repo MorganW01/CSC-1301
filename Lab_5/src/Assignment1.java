@@ -1,18 +1,31 @@
 public class Assignment1 {
 
-    public static void main (String [] args){
+    public static void main(String[] args) {
 
-        String space="\n";
+        String space = "\n";
+        //prints the heading
         header();
+        //prints up facing arrow with line underneath
         drawUpArrow();
         drawALine();
-        System.out.println(space);;
+        //prints a new line for separation
+        System.out.println(space);
+
+        //prints a line with a downwards facing arrow underneath
         drawALine();
         drawDownArrow();
-        System.out.println(space);;
+
+        //prints a new line for separation
+        System.out.println(space);
+
+        //prints both arrows to form an X
         drawDownArrow();
         drawUpArrow();
-        System.out.println(space);;
+
+        //prints a line for separation
+        System.out.println(space);
+
+        //prints a box
         drawALine();
         drawBars();
         drawBars();
@@ -22,16 +35,16 @@ public class Assignment1 {
     }
 
 
-    public static void header (){
+    public static void header() {
         String heading = "Morgan Warren\nCSC 1301 - Fall 2019\nProgramming Assignment 1\nDue 9/27/19";
 
         System.out.println(heading);
     }
 
-    public static void drawUpArrow(){
+    public static void drawUpArrow() {
 
         //done
-        String firstRow="  /\\";
+        String firstRow = "  /\\";
 
         String secondRow = " /\t\\";
 
@@ -44,9 +57,9 @@ public class Assignment1 {
 
     }
 
-    public static void drawDownArrow(){
+    public static void drawDownArrow() {
 
-        String firstRow="  \\/";
+        String firstRow = "  \\/";
 
         String secondRow = " \\\t/";
 
@@ -58,34 +71,20 @@ public class Assignment1 {
         System.out.println(firstRow);
 
 
-
-
-
-
-
     }
 
-    // this method may not be needed
-    /*public static void drawX (){
 
-
-    }*/
-
-    public static void drawALine () {
-        String line = "- - - -";
+    public static void drawALine() {
+        String line = "-------";
         System.out.println(line);
 
 
     }
 
-    public static void drawBars (){
+    public static void drawBars() {
         String bars = "|\t  |";
         System.out.println(bars);
     }
-
-
-
-
 
 
 }
