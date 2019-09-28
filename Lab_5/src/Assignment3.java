@@ -18,12 +18,12 @@ public class Assignment3 {
     public static void drawUpArrow() {
 
         //done
-        String firstRow = "   /\\";
+        String firstRow = "   /\\" + "        /\\";
 
-        String secondRow = "  /\t \\";
+        String secondRow = "  /\t \\" + "      /  \\";
 
         //done
-        String thirdRow = " /\t  \\";
+        String thirdRow = " /\t  \\" + "    /\t\\";
 
         System.out.println(firstRow);
         System.out.println(secondRow);
@@ -38,7 +38,7 @@ public class Assignment3 {
     }
 
     public static void drawBars() {
-        String bars = "|      |\n|      |  |      |";
+        String bars = "|      |  |      |\n|      |  |      |";
         System.out.println(bars);
 
         //may need to add just six spaces
@@ -46,8 +46,15 @@ public class Assignment3 {
     }
 
     public static void drawTextBars() {
-        String textBars = "|United|\n|States|";
-        System.out.println(textBars);
+        /*String textBars = "|United|\n|States|";
+        System.out.println(textBars);*/
+
+        String textLineOne = "|United|  |United|";
+        String textLineTwo = "|States|  |States|";
+        System.out.println(textLineOne);
+        System.out.println(textLineTwo);
+
+
 
     }
 }
