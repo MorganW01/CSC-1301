@@ -41,13 +41,11 @@ public class Assignment3 {
         String bars = "|      |  |      |\n|      |  |      |";
         System.out.println(bars);
 
-        //may need to add just six spaces
 
     }
 
     public static void drawTextBars() {
-        /*String textBars = "|United|\n|States|";
-        System.out.println(textBars);*/
+
 
         String textLineOne = "|United|  |United|";
         String textLineTwo = "|States|  |States|";
