@@ -2,8 +2,8 @@ public class ForLoops {
 
 
     public static void main(String []args){
-        question1();
-        question2();
+        //question1();
+        //question2();
         question3();
     }
 

@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NestedForLoops">
     <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForLoops" />
       <module name="Lab_7" />
@@ -43,8 +43,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NestedForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedForLoops" />
+      <module name="Lab_7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedForLoops" />
         <item itemvalue="Application.ForLoops" />
       </list>
     </recent_temporary>
