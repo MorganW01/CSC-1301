@@ -1,16 +1,19 @@
 public class NestedForLoops {
 
     public static void main(String []args) {
-        question7();
+        //question7();
+        question8();
         //question9();
         //question10();
 
     }
 
-   // line = 8
+    public static final int LINE = 4;
     public static void question7(){
         System.out.println("+----------------+");
-        for (int i=1; i<=8;i++){ // i controls how many lines we want to have
+
+        // UPPER HALF
+        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
             System.out.print("|");
             for(int j=8; j>i;j--){ // j controls the amount of spaces before / in every line.
                 System.out.print(" ");
@@ -26,13 +29,45 @@ public class NestedForLoops {
             System.out.println("|");
         }
 
-        for (int i=1; i<=8;i++){
+        //BOTTOM HALF NEEDS WORK WHEN MAKING LINE = 4!
+
+        //BOTTOM HALF
+
+        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
+            System.out.print("|");
+
+            for(int j=1; j<i;j++){ // j controls the amount of spaces before / in every line.
+                System.out.print(" ");
+            }
+            System.out.print("\\");
+            for (int k=7; k>i-1;k--){ // k is to control how many dots we have in every line.
+                System.out.print("..");
+            }
+
+            System.out.print("/");
+            for (int j=1;j<i;j++){ // j is to control how many spaces we have after \ in every line.
+                System.out.print(" ");
+            }
+
+            System.out.println("|");
+        }
+        System.out.println("+----------------+");
+
+    }
+
+
+
+    public static void question8(){
+        System.out.println("+----------------+");
+
+        // UPPER HALF
+        for (int i=1; i<=LINE;i++){
             System.out.print("|");
             for (int j=1; j<i;j++){
                 System.out.print(" ");
             }
             System.out.print("\\");
-            for (int k=7; k>i-1;k--){
+            for (int k=7; k>i-1;k--){//this was the line changed!
                 System.out.print("..");
             }
             System.out.print("/");
@@ -41,15 +76,23 @@ public class NestedForLoops {
             }
             System.out.println("|");
         }
-
+        //BOTTOM HALF
+        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
+            System.out.print("|");
+            for(int j=8; j>i;j--){ // j controls the amount of spaces before / in every line.
+                System.out.print(" ");
+            }
+            System.out.print("/");
+            for (int k=0; k<i-1;k++){ // k is to control how many dots we have in every line.
+                System.out.print("..");
+            }
+            System.out.print("\\");
+            for (int j=8;j>i;j--){ // j is to control how many spaces we have after \ in every line.
+                System.out.print(" ");
+            }
+            System.out.println("|");
+        }
         System.out.println("+----------------+");
-
-
-    }
-
-    public static void question8(){
-
-
     }
 
 
