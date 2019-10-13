@@ -1,54 +1,50 @@
 public class NestedForLoops {
 
     public static void main(String []args) {
-        //question7();
-        question8();
+        question7();
+        //question8();
         //question9();
         //question10();
 
     }
 
-    public static final int LINE = 4;
+    public static final int LINE = 8;
     public static void question7(){
         System.out.println("+----------------+");
 
         // UPPER HALF
-        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
+        for (int i = 1; i <= LINE; i++) { // i controls the #of lines
             System.out.print("|");
-            for(int j=8; j>i;j--){ // j controls the amount of spaces before / in every line.
+            for (int j = LINE; j > i; j--) { // j controls the # of spaces before / in every line.
                 System.out.print(" ");
             }
             System.out.print("/");
-            for (int k=0; k<i-1;k++){ // k is to control how many dots we have in every line.
+            for (int k = 0; k < i - 1; k++) { // k is to control how many dots we have in every line.
                 System.out.print("..");
             }
             System.out.print("\\");
-            for (int j=8;j>i;j--){ // j is to control how many spaces we have after \ in every line.
+            for (int j = LINE; j > i; j--) { // j is to control how many spaces we have after \ in every line.
                 System.out.print(" ");
             }
             System.out.println("|");
         }
 
-        //BOTTOM HALF NEEDS WORK WHEN MAKING LINE = 4!
 
         //BOTTOM HALF
 
-        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
+        for (int i = 1; i <= LINE; i++) {
             System.out.print("|");
-
-            for(int j=1; j<i;j++){ // j controls the amount of spaces before / in every line.
+            for (int j = 1; j < i; j++) {
                 System.out.print(" ");
             }
             System.out.print("\\");
-            for (int k=7; k>i-1;k--){ // k is to control how many dots we have in every line.
+            for (int k = LINE - 1; k > i - 1; k--) {
                 System.out.print("..");
             }
-
             System.out.print("/");
-            for (int j=1;j<i;j++){ // j is to control how many spaces we have after \ in every line.
+            for (int j = 1; j < i; j++) {
                 System.out.print(" ");
             }
-
             System.out.println("|");
         }
         System.out.println("+----------------+");
@@ -61,37 +57,39 @@ public class NestedForLoops {
         System.out.println("+----------------+");
 
         // UPPER HALF
-        for (int i=1; i<=LINE;i++){
+        for (int i = 1; i <= LINE; i++) {
             System.out.print("|");
-            for (int j=1; j<i;j++){
+            for (int j = 1; j < i; j++) {
                 System.out.print(" ");
             }
             System.out.print("\\");
-            for (int k=7; k>i-1;k--){//this was the line changed!
+            for (int k = LINE - 1; k > i - 1; k--) {
                 System.out.print("..");
             }
             System.out.print("/");
-            for (int j=1;j<i; j++){
+            for (int j = 1; j < i; j++) {
                 System.out.print(" ");
             }
             System.out.println("|");
         }
         //BOTTOM HALF
-        for (int i=1; i<=LINE;i++){ // i controls how many lines we want to have
+        for (int i = 1; i <= LINE; i++) { // i controls the # of lines
             System.out.print("|");
-            for(int j=8; j>i;j--){ // j controls the amount of spaces before / in every line.
+            for (int j = LINE; j > i; j--) { // j controls the # of spaces before / in every line.
                 System.out.print(" ");
             }
             System.out.print("/");
-            for (int k=0; k<i-1;k++){ // k is to control how many dots we have in every line.
+            for (int k = 0; k < i - 1; k++) { // k is to control how many dots we have in every line.
                 System.out.print("..");
             }
             System.out.print("\\");
-            for (int j=8;j>i;j--){ // j is to control how many spaces we have after \ in every line.
+            for (int j = LINE; j > i; j--) { // j is to control how many spaces we have after \ in every line.
                 System.out.print(" ");
             }
             System.out.println("|");
         }
+
+
         System.out.println("+----------------+");
     }
 
