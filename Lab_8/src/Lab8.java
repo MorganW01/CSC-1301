@@ -22,14 +22,18 @@ public class Lab8 {
             }
     }
 
-    public static void question2(){
-        for(int i=1; i<=4;i++){}
+    public static void question2 () {
 
+            for (int j = 1; j <= 7; j = j + 2) {
+                for (int k = 1; k <= 10; k++) {
+                    System.out.print(j * k);
+                    System.out.print(" ");
+                }
+                System.out.println();
 
-
-
-    }
-
+            }
+        }
+        
 
     public static final int SEGMENT =2;
     public static final int HEIGHT =6;
