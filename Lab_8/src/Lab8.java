@@ -2,9 +2,9 @@ public class Lab8 {
 
     public static void main (String []args){
 
-        //question1();
+        question1();
         question2();
-        //question3();
+        question3();
 
     }
 
@@ -33,7 +33,7 @@ public class Lab8 {
 
             }
         }
-        
+
 
     public static final int SEGMENT =2;
     public static final int HEIGHT =6;
