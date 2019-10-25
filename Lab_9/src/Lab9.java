@@ -5,19 +5,19 @@ public class Lab9 {
         System.out.println("Enter a String!");
         Scanner scanner = new Scanner(System.in);
         String word= scanner.nextLine();
+
         showPairs(word);
         showThrees(word);
         showFours(word);
 
     }
-
+    //Instructorcanofferminimalhints
     //question 4
     public static void showPairs(String word){
-        for (int i =0; i < word.length()-1; i++){
+        for (int i =0; i < word.length()-1; i=i+2){
             //print out letters two at a time
-            System.out.print(word.charAt(i));
-            System.out.print(word.charAt(i+1));
-            System.out.println();
+            System.out.println(word.substring(i, i+2));
+
         }
     }
 
