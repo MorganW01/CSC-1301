@@ -37,5 +37,5 @@ public class Lab9 {
             System.out.println(word.substring(i, i+4));
         }
     }
-    
+
 }
