@@ -9,6 +9,12 @@ public class Lab10_Q3 {
 
     }
 
+    public static void swapPairs (){
+
+
+        
+    }
+
 
 
 
