@@ -2,14 +2,11 @@ import java.util.Scanner;
 public class Lab10_Q3 {
     public static void main (String []args){
         Scanner scanner = new Scanner (System.in);
-        //System.out.println("Enter a string, or enter \"done\" to quit");
         boolean done = false;
+        System.out.println("Enter a string, or enter \"done\" to quit");
 
         while (!done){
-            System.out.println("Enter a string, or enter \"done\" to quit");
             String input = scanner.nextLine();
-
-
 
             if (input.equalsIgnoreCase("done")){
                 System.out.println("Goodbye!");
@@ -18,15 +15,11 @@ public class Lab10_Q3 {
             }
             else {
                 System.out.println(swapPairs(input));
+                System.out.println("Enter another string, or enter \"done\" to quit");
 
 
             }
-
-
         }
-
-
-
     }
 
     public static String swapPairs(String input) {
@@ -38,12 +31,5 @@ public class Lab10_Q3 {
         }
         return new String(array);
     }
-
-
-
-
-
-
-
 }
 

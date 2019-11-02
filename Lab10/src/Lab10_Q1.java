@@ -3,6 +3,7 @@ public class Lab10_Q1 {
 
     public static void main (String []args){
         Scanner scanner = new Scanner (System.in);
+
         System.out.println("Enter a number: ");
         int first = scanner.nextInt();
         System.out.println("Enter a second number: ");
@@ -10,9 +11,7 @@ public class Lab10_Q1 {
         System.out.println("Enter a third number: ");
         int third = scanner.nextInt();
         System.out.println("The sum of the three numbers is: "+calcSum(first,second, third));
-        System.out.println("The average of the three numbers is: "+ calcAvg(first, second, third) );
-
-
+        System.out.println("The average of the three numbers is: "+ calcAvg(first, second, third));
 
     }
 

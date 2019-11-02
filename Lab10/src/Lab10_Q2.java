@@ -1,9 +1,14 @@
 import java.util.Scanner;
 public class Lab10_Q2 {
-    public static void main (String []args){
-        Scanner scanner = new Scanner (System.in);
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+
         System.out.println("Enter next person's information: ");
         System.out.println("height (in inches)? : ");
+
+
         double height = scanner.nextDouble();
         System.out.println("weight(in pounds)? : ");
         double weight = scanner.nextDouble();
