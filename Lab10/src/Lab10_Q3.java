@@ -16,12 +16,9 @@ public class Lab10_Q3 {
             else {
                 System.out.println(swapPairs(input));
                 System.out.println("Enter another string, or enter \"done\" to quit");
-
-
             }
         }
     }
-
     public static String swapPairs(String input) {
         char[] array = input.toCharArray();
         for (int i = 1; i < array.length; i += 2) {
