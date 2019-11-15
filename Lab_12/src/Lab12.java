@@ -17,7 +17,7 @@ public class Lab12 {
         }
 
         boolean flag = containDigits(a,b);
-        System.out.println("My name is Morgan, and " +a+ " contains "+b+" : "+flag);
+        System.out.println("My name is Morgan, and " +a+ " contains "+b+": "+flag);
 
     }
 
