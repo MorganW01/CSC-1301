@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lab12_2">
+  <component name="RunManager" selected="Application.Lab12">
     <configuration name="Lab12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab12" />
       <module name="Lab_12" />
@@ -52,8 +52,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab12_2" />
         <item itemvalue="Application.Lab12" />
+        <item itemvalue="Application.Lab12_2" />
       </list>
     </recent_temporary>
   </component>

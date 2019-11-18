@@ -8,8 +8,6 @@ public class Lab12_2{
         showTwos(a);
     }
 
-    // use this site to find out how many twos are in the number, then print that amount of twos.
-    // https://www.geeksforgeeks.org/number-of-occurrences-of-2-as-a-digit-in-numbers-from-0-to-n/
     public static void showTwos(int a){
         // variable used to store the amount of two's in the number
         int count = 0;
@@ -33,9 +31,5 @@ public class Lab12_2{
 
         }
     }
-
-
-
-
 
 }
