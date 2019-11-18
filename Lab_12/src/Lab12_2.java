@@ -27,7 +27,7 @@ public class Lab12_2{
         }
         else {
 
-            System.out.println(a + " = "+a);
+            System.out.println(a + " = "+ a);
 
         }
     }
