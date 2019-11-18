@@ -17,7 +17,7 @@ public class Lab12 {
         }
 
         boolean flag = containDigits(a,b);
-        System.out.println("My name is Morgan, and " +a+ " contains "+b+": "+flag);
+        System.out.println(a+ " contains "+b+": "+flag);
 
     }
 
@@ -25,11 +25,11 @@ public class Lab12 {
         boolean flag= false;
         while (a > 0){
             if (a % 10 == b){
-
-                flag = true;
                 a=a/10;
+                flag = true;
                 break;
             }
+            //a=a/10;
             else {
                 flag=false;
                 break;
