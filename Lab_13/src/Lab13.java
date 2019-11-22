@@ -12,7 +12,6 @@ public class Lab13 {
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
         int randomInt = rand.nextInt(100-1)+1;
-        System.out.println(randomInt);
         boolean done = false;
 
         do {
