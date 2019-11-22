@@ -1,5 +1,10 @@
 import java.util.Scanner;
 public class Lab13_1 {
+
+    //Write a” rhyme”/” alliterate” program to use Boolean methods to test for rhyming and alliteration.
+    //#rhyme: return true if s1 and s2 end with the same two letters
+    //#alliterate return true if s1 and s2 start with the same letter
+
     public static void main (String []args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a word: ");
@@ -10,7 +15,6 @@ public class Lab13_1 {
     }
     public static boolean wordRelationship(String word1, String word2){
         boolean rhyme = word1.charAt(word1.length()-1) == word2.charAt(word2.length()-1);
-
         boolean alliterate = word1.charAt(0) == word2.charAt(0);
 
         boolean condition = false;
@@ -30,7 +34,6 @@ public class Lab13_1 {
         else {
             System.out.println("The words neither rhyme nor alliterate!");
         }
-
         return condition;
     }
 
