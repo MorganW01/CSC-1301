@@ -1,7 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
 public class Lab13 {
-
     /*
     * Q1: lab13.java (use a do while loop)
        *Write a program that generates a random number and asks the user to guess what the number is.
@@ -11,11 +10,26 @@ public class Lab13 {
 
     public static void main (String []args){
         Random rand = new Random();
+        Scanner scanner = new Scanner(System.in);
+        int randomInt = rand.nextInt(100-1)+1;
+        boolean done = false;
 
+        do {
+            System.out.println("Guess the random number.");
+            int guess = scanner.nextInt();
 
-
-
-
+            if (guess>randomInt){
+                System.out.println("Too high, try again!");
+            }
+            else if (guess<randomInt){
+                System.out.println("Too low, try again!");
+            }
+            else if(guess==randomInt){
+                done=true;
+            }
+        }
+        while(!done);
+        System.out.println("You correctly guessed the number!");
 
     }
 
