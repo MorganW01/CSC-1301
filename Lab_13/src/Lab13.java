@@ -12,10 +12,11 @@ public class Lab13 {
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
         int randomInt = rand.nextInt(100-1)+1;
+        System.out.println(randomInt);
         boolean done = false;
 
         do {
-            System.out.println("Guess the random number.");
+            System.out.println("Guess a random number between 1 and 100.");
             int guess = scanner.nextInt();
 
             if (guess>randomInt){
